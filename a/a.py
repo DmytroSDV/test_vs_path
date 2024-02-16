@@ -1,4 +1,4 @@
-from b.b import b
+# from b.b import b
 
 
 def a():
@@ -6,4 +6,4 @@ def a():
 
 
 if __name__ == "__main__":
-    print(b())
+    print(a())

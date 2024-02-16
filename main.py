@@ -1,7 +1,10 @@
-from a.a import a
-from b.b import b
 
+from faker import Faker
+fake = Faker()
 
-print(a())
-
-print(b())
+# print(dir(fake))
+for el in dir(fake):
+    if el.startswith('random'):
+        print(el)
+        if el == "random":
+            help(el)
